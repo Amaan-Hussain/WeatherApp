@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Maven+Pro&family=Pathway+Extreme:opsz@8..144&family=Raleway:wght@200;300;500&family=Space+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    background-color: rgb(40, 43, 41);
+}
+.main{
+    /* margin-top: 70px; */
+    /* margin-left: 25%; */
+
+    width: 90%;
+    max-width: 470px;
+    /* height: 60vh; */
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    background: radial-gradient(circle at 10% 20%, rgb(111, 231, 176) 0%, rgb(154, 198, 242) 100.2%);
+    border-radius: 5px;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 25px; */
+    /* margin: 8%; */
+    margin-bottom: 20px;
+}
+.input{
+    height: 10%;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    height: 30px;
+    width: 70%;
+    padding-left: 10px;
+}
+.search-icon{
+    height: 30px;
+    cursor: pointer;
+}
+.weatherimg{
+    text-align: center;
+}
+.weather-img{
+    height: 150px;
+}
+
+.temp,.city{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600; 
+    color: white;
+}
+.temp{
+    font-size: 2.5rem;
+}
+.last{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.humidity, .wind{
+    display: flex;
+}
+.wind-img, .humi-img{
+    height: 30px;
+}
+.humimidity{
+    margin-left: 20px;
+}
+.wind{
+    margin-right: 20px;
+}
+.details{
+    margin-left: 10px;
+    color: white;
+}
+.humidity .details h4{
+    margin-left: -69%;
+}
+.wind .details h4{
+    margin-left: -30%;
+}
+
+.error{
+    display: none;
+    color: white;
+}
